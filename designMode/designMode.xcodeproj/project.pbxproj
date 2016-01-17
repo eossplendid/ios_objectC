@@ -12,6 +12,11 @@
 		63ACB03E1C4A1897008EBBF5 /* NSString+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB03D1C4A1897008EBBF5 /* NSString+Reverse.m */; };
 		63ACB0461C4A296A008EBBF5 /* StringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB0451C4A296A008EBBF5 /* StringTest.m */; };
 		63ACB0491C4A2CE3008EBBF5 /* ArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB0481C4A2CE3008EBBF5 /* ArrayTest.m */; };
+		63ACB04C1C4B41C6008EBBF5 /* Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB04B1C4B41C6008EBBF5 /* Dictionary.m */; };
+		63ACB04F1C4B4808008EBBF5 /* Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB04E1C4B4808008EBBF5 /* Number.m */; };
+		63ACB0521C4B4CD8008EBBF5 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB0511C4B4CD8008EBBF5 /* Set.m */; };
+		63ACB0551C4B53A5008EBBF5 /* Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB0541C4B53A5008EBBF5 /* Value.m */; };
+		63ACB0581C4B58A1008EBBF5 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB0571C4B58A1008EBBF5 /* Data.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +42,16 @@
 		63ACB0451C4A296A008EBBF5 /* StringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTest.m; sourceTree = "<group>"; };
 		63ACB0471C4A2CE3008EBBF5 /* ArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayTest.h; sourceTree = "<group>"; };
 		63ACB0481C4A2CE3008EBBF5 /* ArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTest.m; sourceTree = "<group>"; };
+		63ACB04A1C4B41C6008EBBF5 /* Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		63ACB04B1C4B41C6008EBBF5 /* Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dictionary.m; sourceTree = "<group>"; };
+		63ACB04D1C4B4808008EBBF5 /* Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Number.h; sourceTree = "<group>"; };
+		63ACB04E1C4B4808008EBBF5 /* Number.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Number.m; sourceTree = "<group>"; };
+		63ACB0501C4B4CD8008EBBF5 /* Set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Set.h; sourceTree = "<group>"; };
+		63ACB0511C4B4CD8008EBBF5 /* Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Set.m; sourceTree = "<group>"; };
+		63ACB0531C4B53A5008EBBF5 /* Value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Value.h; sourceTree = "<group>"; };
+		63ACB0541C4B53A5008EBBF5 /* Value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Value.m; sourceTree = "<group>"; };
+		63ACB0561C4B58A1008EBBF5 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		63ACB0571C4B58A1008EBBF5 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,16 @@
 				63ACB0451C4A296A008EBBF5 /* StringTest.m */,
 				63ACB0471C4A2CE3008EBBF5 /* ArrayTest.h */,
 				63ACB0481C4A2CE3008EBBF5 /* ArrayTest.m */,
+				63ACB04A1C4B41C6008EBBF5 /* Dictionary.h */,
+				63ACB04B1C4B41C6008EBBF5 /* Dictionary.m */,
+				63ACB04D1C4B4808008EBBF5 /* Number.h */,
+				63ACB04E1C4B4808008EBBF5 /* Number.m */,
+				63ACB0501C4B4CD8008EBBF5 /* Set.h */,
+				63ACB0511C4B4CD8008EBBF5 /* Set.m */,
+				63ACB0531C4B53A5008EBBF5 /* Value.h */,
+				63ACB0541C4B53A5008EBBF5 /* Value.m */,
+				63ACB0561C4B58A1008EBBF5 /* Data.h */,
+				63ACB0571C4B58A1008EBBF5 /* Data.m */,
 			);
 			path = designMode;
 			sourceTree = "<group>";
@@ -138,9 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63ACB0551C4B53A5008EBBF5 /* Value.m in Sources */,
 				633907941C37BB9B008F9F5A /* Dog.m in Sources */,
 				63ACB0491C4A2CE3008EBBF5 /* ArrayTest.m in Sources */,
 				63ACB03E1C4A1897008EBBF5 /* NSString+Reverse.m in Sources */,
+				63ACB04C1C4B41C6008EBBF5 /* Dictionary.m in Sources */,
+				63ACB0581C4B58A1008EBBF5 /* Data.m in Sources */,
+				63ACB0521C4B4CD8008EBBF5 /* Set.m in Sources */,
+				63ACB04F1C4B4808008EBBF5 /* Number.m in Sources */,
 				63ACB0461C4A296A008EBBF5 /* StringTest.m in Sources */,
 				6339074D1C3654DA008F9F5A /* main.m in Sources */,
 			);
