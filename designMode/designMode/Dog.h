@@ -11,12 +11,12 @@
 @interface Dog : NSObject
 {
     //写字段
-@protected
+@protected        //子类可以继承，但不能被外部函数访问
     int ID;
-@public
+@public           //可以继承，可以被访问
     int age;
 @private
-    float price;
+    float price;  //子类不能继承
 }
 //凡是以init开头的都是构造函数
 -(id) init;

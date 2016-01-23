@@ -17,6 +17,8 @@
 		63ACB0521C4B4CD8008EBBF5 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB0511C4B4CD8008EBBF5 /* Set.m */; };
 		63ACB0551C4B53A5008EBBF5 /* Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB0541C4B53A5008EBBF5 /* Value.m */; };
 		63ACB0581C4B58A1008EBBF5 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB0571C4B58A1008EBBF5 /* Data.m */; };
+		63ACB05B1C4B5C8D008EBBF5 /* labrado.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB05A1C4B5C8D008EBBF5 /* labrado.m */; };
+		63ACB0611C4B6ACA008EBBF5 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB0601C4B6ACA008EBBF5 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +54,10 @@
 		63ACB0541C4B53A5008EBBF5 /* Value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Value.m; sourceTree = "<group>"; };
 		63ACB0561C4B58A1008EBBF5 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		63ACB0571C4B58A1008EBBF5 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		63ACB0591C4B5C8D008EBBF5 /* labrado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = labrado.h; sourceTree = "<group>"; };
+		63ACB05A1C4B5C8D008EBBF5 /* labrado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = labrado.m; sourceTree = "<group>"; };
+		63ACB05F1C4B6ACA008EBBF5 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = ../Singleton.h; sourceTree = "<group>"; };
+		63ACB0601C4B6ACA008EBBF5 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Singleton.m; path = ../Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,8 @@
 				63ACB03C1C4A1897008EBBF5 /* NSString+Reverse.h */,
 				63ACB03D1C4A1897008EBBF5 /* NSString+Reverse.m */,
 				63ACB0441C4A296A008EBBF5 /* StringTest.h */,
+				63ACB05F1C4B6ACA008EBBF5 /* Singleton.h */,
+				63ACB0601C4B6ACA008EBBF5 /* Singleton.m */,
 				63ACB0451C4A296A008EBBF5 /* StringTest.m */,
 				63ACB0471C4A2CE3008EBBF5 /* ArrayTest.h */,
 				63ACB0481C4A2CE3008EBBF5 /* ArrayTest.m */,
@@ -103,6 +111,8 @@
 				63ACB0541C4B53A5008EBBF5 /* Value.m */,
 				63ACB0561C4B58A1008EBBF5 /* Data.h */,
 				63ACB0571C4B58A1008EBBF5 /* Data.m */,
+				63ACB0591C4B5C8D008EBBF5 /* labrado.h */,
+				63ACB05A1C4B5C8D008EBBF5 /* labrado.m */,
 			);
 			path = designMode;
 			sourceTree = "<group>";
@@ -167,10 +177,12 @@
 				633907941C37BB9B008F9F5A /* Dog.m in Sources */,
 				63ACB0491C4A2CE3008EBBF5 /* ArrayTest.m in Sources */,
 				63ACB03E1C4A1897008EBBF5 /* NSString+Reverse.m in Sources */,
+				63ACB05B1C4B5C8D008EBBF5 /* labrado.m in Sources */,
 				63ACB04C1C4B41C6008EBBF5 /* Dictionary.m in Sources */,
 				63ACB0581C4B58A1008EBBF5 /* Data.m in Sources */,
 				63ACB0521C4B4CD8008EBBF5 /* Set.m in Sources */,
 				63ACB04F1C4B4808008EBBF5 /* Number.m in Sources */,
+				63ACB0611C4B6ACA008EBBF5 /* Singleton.m in Sources */,
 				63ACB0461C4A296A008EBBF5 /* StringTest.m in Sources */,
 				6339074D1C3654DA008F9F5A /* main.m in Sources */,
 			);
